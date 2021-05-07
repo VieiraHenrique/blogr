@@ -13,10 +13,11 @@ ul {
 a {
   text-decoration: none;
   line-height: 1;
+  color: #1f3e5a;
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -421,7 +422,7 @@ body {
   .infrastructure img {
     -webkit-transform: translate(-15px, -155px);
             transform: translate(-15px, -155px);
-    width: 350px;
+    /* width: 350px; */
   }
   .infrastructure__content {
     text-align: center;
