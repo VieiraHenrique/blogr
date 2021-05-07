@@ -1,0 +1,52 @@
+.footer {
+  padding: 100px 0;
+  background: #24242c;
+  border-top-right-radius: 100px;
+
+  .container {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__item {
+    text-align: center;
+    .title {
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    a {
+      color: rgb(170, 170, 170);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 180px;
+    }
+
+    &__item {
+      .title {
+        color: #fff;
+        margin-bottom: 30px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      a {
+        color: rgb(170, 170, 170);
+      }
+    }
+  }
+}

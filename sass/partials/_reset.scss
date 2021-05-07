@@ -1,0 +1,46 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&display=swap");
+
+// variables
+$color-primary: #ff8f71;
+$color-secondary: #ff3e55;
+$blue: #1f3e5a;
+
+// reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 20px;
+  border-radius: 100px;
+  background: #fff;
+}
