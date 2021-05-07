@@ -1,6 +1,6 @@
 .infrastructure {
   @media screen and (min-width: 768px) {
-    background: url(/images/bg-pattern-circles.svg),
+    background: url("images/bg-pattern-circles.svg"),
       linear-gradient(to right bottom, #2d2e40, #3f4164);
     height: 400px;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@
 
   @media screen and (max-width: 768px) {
     margin-top: 200px;
-    background: url(/images/bg-pattern-circles.svg),
+    background: url("images/bg-pattern-circles.svg"),
       linear-gradient(to right bottom, #2d2e40, #3f4164);
     height: 627px;
     background-repeat: no-repeat;
